@@ -254,9 +254,9 @@ const Signup = () => {
           </div>
         </div>
 
-        <div className="signup-img">
+        {/* <div className="signup-img">
           <img src={signup} className="signup-img"></img>
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useFormik } from "formik";
 import { signUpSchema } from "../schemas/FormValidation";
-import signup from "../assets/img/signup.png";
 import showIcon from "../assets/img/show-icon.png";
 import hideIcon from "../assets/img/hide-icon.png";
 import { useNavigate } from "react-router-dom";
@@ -164,10 +163,6 @@ const Login = () => {
               </button>
             </div>
           </form>
-        </div>
-
-        <div className="signup-img">
-          <img src={signup} className="signup-img"></img>
         </div>
       </div>
     </>

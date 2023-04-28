@@ -223,7 +223,9 @@ body,
 }
 
 .about-mission {
-  background-color: #00d0ff;
+  background-color: #0d2f56;
+  padding: 30px 100px;
+  height: 370px;
 }
 
 .about-mission > h1 {
@@ -231,7 +233,7 @@ body,
   padding-bottom: 100px;
   padding-left: 53px;
   padding-right: 51px;
-  font-size: 33px;
+  font-size: 25px;
   font-family: Ubuntu, sans-serif;
 }
 
@@ -253,10 +255,10 @@ body,
   letter-spacing: 2px;
 }
 .content-two {
-  font-size: 17px;
   letter-spacing: 0.5px;
+  color: #6a6a6a;
   margin-top: 47px;
-  color: #4a4a4a;
+  font-size: 16px;
 }
 
 .restaurant-info {
@@ -432,7 +434,9 @@ body,
 }
 
 .instamart-description {
-  padding: 0px 10px 10px 10px;
+  padding: 0 10px 10px;
+  font-size: 14px;
+  color: #595959;
 }
 
 .menu-list {
@@ -1088,13 +1092,41 @@ body,
   align-items: center;
   font-family: Noto Sans, sans-serif;
   /* z-index: 1; */
-  min-height: calc(100vh - 105px);
+  /* min-height: calc(100vh - 105px); */
+}
+
+.account-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 20px;
+  /* margin-bottom: -27px; */
+}
+
+.create-account {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.account-header {
+  width: 350px;
+}
+
+.account-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 50px);
 }
 
 .sign-up {
   font-family: Noto Sans, sans-serif;
   font-size: 30px;
   font-weight: 500;
+  margin-bottom: -6px;
 }
 
 .form-wrapper {
@@ -1178,13 +1210,18 @@ body,
   margin-top: 20px;
   border: none;
   cursor: pointer;
-  background-color: #00d0ff;
+  background-color: #0d2f56;
   color: white;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
   font-size: 14px;
   font-weight: 600;
   text-align: center;
   position: relative;
+}
+
+.btn-submit:hover {
+  background-color: rgb(28, 89, 159);
+  transition: 0.4s;
 }
 
 .btn-show-hide {
@@ -1204,4 +1241,6 @@ body,
   background-color: transparent;
   cursor: pointer;
   color: #009abc;
+  margin-top: 3px;
+  padding-left: 6px;
 }
