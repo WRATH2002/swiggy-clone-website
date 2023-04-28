@@ -14,7 +14,7 @@ import Offline from "./utils/Offline";
 import Instamart from "./components/Instamart";
 import { lazy, Suspense } from "react";
 import SkeletonUI from "./components/SkeletonUI";
-import Cart from "./components/cart";
+// import Cart from "./components/cart";
 import { Provider } from "react-redux";
 import store from "./utils/store";
 import NewCart from "./components/NewCart";
