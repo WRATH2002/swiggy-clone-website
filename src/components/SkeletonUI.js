@@ -6,7 +6,7 @@ const SkeletonUI = () => {
   return (
     <>
       <div className="skeletonSearch">
-        <Skeleton height={36} width={570} />
+        <Skeleton height={50} width={606} />
       </div>
       <div className="skeletonUI">
         {Array(12)

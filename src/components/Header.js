@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import useOnline from "../utils/useOnline";
-import HungerrLogo from "../assets/img/Hungerr.png";
+import FoodstopLogo from "../assets/img/alogo.png";
 import { useSelector } from "react-redux";
 
 const Logo = () => (
   <Link to="/">
     <div className="logo">
-      {/* <img className="logo" alt="logo" src={HungerrLogo}></img> */}
-      FOODSTOP
+      {/* <img className="logo" alt="logo" src={FoodstopLogo}></img> */}
+      {/* FOODSTOP */}
     </div>
   </Link>
 );

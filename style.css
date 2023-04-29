@@ -139,22 +139,22 @@ body,
 
 .search-input {
   width: 500px;
-  height: 36px;
+  height: 50px;
+  border: 1px solid #ff8800;
+  /* border-radius: 7px 0 0 7px; */
   outline: none;
-  padding: 3px 10px;
-  border: 1px solid #a3a3a3;
+  padding: 9px 20px;
   font-size: 14px;
-  border-radius: 7px 0px 0px 7px;
 }
 
 .search-btn {
-  width: 70px;
-  height: 36px;
+  width: 106px;
+  height: 50px;
   cursor: pointer;
+  color: #fff;
   background-color: #ff8800;
-  color: white;
-  border: 1px solid #a3a3a3;
-  border-radius: 0 7px 7px 0;
+  border: 1px solid #ff8800;
+  /* border-radius: 0 7px 7px 0; */
   outline: none;
   padding: 3px 10px;
   font-size: 14px;
@@ -182,6 +182,7 @@ body,
 
 .header-font {
   font-family: "Ysabeau", sans-serif;
+
   font-weight: 500;
 }
 
@@ -218,16 +219,16 @@ body,
 .skeletonSearch {
   margin-top: 14px;
   padding: 3px 10px;
-  border-radius: 7px 0px 0px 7px;
+  /* border-radius: 7px 0px 0px 7px; */
   display: flex;
   justify-content: center;
   margin-bottom: -3px;
 }
 
 .about-mission {
-  background-color: #ff8800;
-  padding: 30px 100px;
   height: 370px;
+  background-color: #f80;
+  padding: 34px 120px;
 }
 
 .about-mission > h1 {
@@ -237,6 +238,8 @@ body,
   padding-right: 51px;
   font-size: 25px;
   font-family: Ubuntu, sans-serif;
+  letter-spacing: 1px;
+  text-align: justify;
 }
 
 .about-mission > img {
@@ -257,10 +260,10 @@ body,
   letter-spacing: 2px;
 }
 .content-two {
-  letter-spacing: 0.5px;
-  color: #6a6a6a;
+  letter-spacing: 1.5px;
+  color: #8f8e8e;
   margin-top: 47px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .restaurant-info {
@@ -512,7 +515,7 @@ body,
   font-weight: 600;
   cursor: pointer;
   background-color: transparent;
-  color: #60b246;
+  color: #f80;
 }
 
 .btn-add:hover {
@@ -599,7 +602,7 @@ body,
   height: 18px;
   /* width: 100%;
   height: 100%; */
-  background-color: rgb(3, 134, 3);
+  background-color: #f80;
   /* background-color: #60b246; */
   border: 1px solid #fff;
   border-radius: 7px;
@@ -696,9 +699,11 @@ body,
 }
 
 .cart-header-hr {
-  border: 1.5px solid #282c3f;
+  width: 60px;
+  border: 1.5px solid #f80;
   margin-top: 5px;
-  width: 40px;
+  /* color: #f80; */
+  font-size: 14px;
 }
 
 .decrease-qty {
@@ -726,7 +731,7 @@ body,
 
 .decrease-size {
   width: 9px;
-  border: 1.5px solid #9f9fa1;
+  border: 1.5px solid #f80;
 }
 
 .increase-qty {
@@ -735,7 +740,7 @@ body,
   margin-bottom: 2px;
   justify-content: center;
   font-size: 17px;
-  color: #60b246;
+  color: #f80;
   display: flex;
   align-items: center;
 }
@@ -747,14 +752,14 @@ body,
   justify-content: center;
   font-size: 14px;
   font-weight: 600;
-  color: #60b246;
+  color: #f80;
   display: flex;
   align-items: center;
 }
 
 .qty {
   font-size: 13px;
-  color: #60b246;
+  color: #f80;
   height: 100%;
   width: 32px;
   display: flex;
@@ -765,7 +770,7 @@ body,
 .cart-qty {
   font-size: 12px;
   /* font-weight: 600; */
-  color: #60b246;
+  color: #f80;
   height: 100%;
   width: 28px;
   display: flex;
@@ -1245,6 +1250,8 @@ body,
   color: #009abc;
   margin-top: 3px;
   padding-left: 6px;
+  color: #f80;
+  font-size: 14px;
 }
 
 @font-face {

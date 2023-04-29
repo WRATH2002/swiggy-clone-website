@@ -133,7 +133,7 @@ const NewCart = () => {
                   &#8377;
                   {restaurantInfo?.feeDetails?.fees[0]?.fee / 100}
                 </strike>
-                <span style={{ color: "#60b246" }}>FREE</span>
+                <span style={{ color: "#f80" }}>FREE</span>
               </span>
             </div>
             <div style={{ margin: "0px 40px" }}>
