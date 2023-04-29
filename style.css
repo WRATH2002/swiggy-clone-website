@@ -19,6 +19,7 @@ body,
   height: 25px;
   width: 110px;
   margin-left: -9px;
+  font-family: wakanda;
 }
 
 .logo > img {
@@ -150,7 +151,7 @@ body,
   width: 70px;
   height: 36px;
   cursor: pointer;
-  background-color: #00d0ff;
+  background-color: #ff8800;
   color: white;
   border: 1px solid #a3a3a3;
   border-radius: 0 7px 7px 0;
@@ -180,6 +181,7 @@ body,
 }
 
 .header-font {
+  font-family: "Ysabeau", sans-serif;
   font-weight: 500;
 }
 
@@ -199,7 +201,7 @@ body,
 .accountClass:hover, */
 .header-class:hover,
 .cartClass:hover {
-  color: #00d0ff;
+  color: #ff8800;
   cursor: pointer;
 }
 
@@ -223,7 +225,7 @@ body,
 }
 
 .about-mission {
-  background-color: #0d2f56;
+  background-color: #ff8800;
   padding: 30px 100px;
   height: 370px;
 }
@@ -1210,7 +1212,7 @@ body,
   margin-top: 20px;
   border: none;
   cursor: pointer;
-  background-color: #0d2f56;
+  background-color: #ff8800;
   color: white;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
   font-size: 14px;
@@ -1243,4 +1245,13 @@ body,
   color: #009abc;
   margin-top: 3px;
   padding-left: 6px;
+}
+
+@font-face {
+  font-family: wakanda;
+  src: url(src/assets/font/WAKANDA\ PANTHER.ttf);
+}
+@font-face {
+  font-family: wakanda2;
+  src: url(src/assets/font/Wakanda.ttf);
 }

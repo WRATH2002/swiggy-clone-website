@@ -6,7 +6,8 @@ import { useSelector } from "react-redux";
 const Logo = () => (
   <Link to="/">
     <div className="logo">
-      <img className="logo" alt="logo" src={HungerrLogo}></img>
+      {/* <img className="logo" alt="logo" src={HungerrLogo}></img> */}
+      FOODSTOP
     </div>
   </Link>
 );
