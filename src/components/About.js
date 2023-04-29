@@ -19,7 +19,7 @@ const About = () => {
         </h1>
         <h4>
           <center className="content content-two ">
-            Hungerr has grand plans to be India's most loved hyperlocal player.
+            Foodstop has grand plans to be India's most loved hyperlocal player.
             It aims to be the most accessible platform on the network -
             reimagining the meaning of convenience in the country through a
             variety of service offerings.

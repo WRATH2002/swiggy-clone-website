@@ -13,13 +13,15 @@ body,
   display: flex;
   flex-direction: column;
 } */
-
+a {
+  text-decoration: none;
+}
 .logo {
-  padding-top: 7px;
-  height: 25px;
-  width: 110px;
-  margin-left: -9px;
-  font-family: wakanda;
+  font-family: font1;
+  font-size: 31px;
+  color: #f80;
+  font-family: font1;
+  text-decoration: none;
 }
 
 .logo > img {
@@ -30,6 +32,8 @@ body,
 
 .logo:hover {
   transform: scale(1.05);
+  transition: 0.3s;
+  color: #ff9f00;
 }
 
 .nav-items {
@@ -161,7 +165,7 @@ body,
 }
 
 .search-btn:hover {
-  background-color: #009abc;
+  background-color: #ff9f00;
 }
 
 .remove-hyperlink {
@@ -564,12 +568,13 @@ body,
 }
 
 .footer {
+  height: 42px;
+  color: #fff;
   background-color: #00152c;
-  height: 30px;
-  color: white;
-  display: flex;
   justify-content: center;
   align-items: center;
+  display: flex;
+  font-size: 13px;
   /* position: relative;
   left: 0;
   bottom: 0;
@@ -1259,6 +1264,6 @@ body,
   src: url(src/assets/font/WAKANDA\ PANTHER.ttf);
 }
 @font-face {
-  font-family: wakanda2;
-  src: url(src/assets/font/Wakanda.ttf);
+  font-family: font1;
+  src: url(src/assets/font/RvD_BETON13.ttf);
 }
