@@ -359,18 +359,19 @@ a {
 }
 
 .online {
-  display: flex;
+  height: 39px;
+  width: 90px;
+  background-color: #ff8800;
+  border: 1px solid #f80;
+  color: white;
+  /* border-radius: 20px; */
   justify-content: center;
   align-items: center;
-  height: 30px;
-  width: 80px;
+  margin: 0 20px;
   font-size: 20px;
-  border: 1px solid rgb(108, 102, 102);
-  margin: 0px 20px;
-  border-radius: 20px;
-  background-color: rgb(232, 233, 233);
-  box-shadow: 0px 6px 10px #282c3f52;
+  display: flex;
   position: relative;
+  /* box-shadow: 0 6px 10px #282c3f52;
 }
 
 .active-icon {
@@ -383,16 +384,16 @@ a {
 }
 
 .accordion-list {
-  border-top: 1px solid #aa9e9e;
-  border-bottom: 1px solid #aa9e9e;
+  /* border-top: 1px solid #aa9e9e;
+  border-bottom: 1px solid #aa9e9e; */
 
   /* padding-bottom: 5px; */
 }
 
 .accordion {
-  /* border: 1px solid black; */
+  /* border: 1px solid black;
   margin: 0px 10px;
-  padding-left: 5px;
+  padding-left: 5px; */
 }
 
 .instamart-title {
@@ -402,50 +403,57 @@ a {
 }
 
 .btn-accordion {
-  margin: 10px 10px 10px 8px;
-  border: 1px solid #fff;
-  border-radius: 4px;
-  padding: 0px 10px;
-  background-color: #0d2f53;
-  color: white;
+  color: #fff;
   height: 28px;
   width: 35px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  margin: 10px 10px 10px -15px;
+  padding: 0 10px;
 }
 
 .btn-accordion:hover {
   cursor: pointer;
-  background-color: #009abc;
+  /* background-color: #009abc; */
 }
 
 .help-title {
-  margin: 0px 10px 0px 23px;
+  /* margin: 0px 10px 0px 23px; */
   padding-top: 10px;
 }
 
 .help-description {
-  margin: 0px 10px 20px 23px;
+  /* margin: 0px 10px 20px 23px; */
   font-size: 16px;
+  color: #5f5f5f;
+  margin-bottom: 17px;
+}
+
+svg {
+  color: #f80;
 }
 
 .instamart-show {
   display: flex;
+  color: #2e2e2e;
 }
 
 .instamart-show:hover {
   cursor: pointer;
-  color: #009abc;
+  color: #f80;
 }
 
 .instamart-color {
   height: 100%;
   margin: 10px 110px;
-  box-shadow: 0px 6px 10px #282c3f52;
+  /* box-shadow: 0px 6px 10px #282c3f52; */
 }
 
 .instamart-description {
-  padding: 0 10px 10px;
+  color: #6f6f6f;
+  padding: 0px 31px 11px;
   font-size: 14px;
-  color: #595959;
 }
 
 .menu-list {
@@ -514,16 +522,20 @@ a {
 .btn-add {
   width: 96px;
   height: 35px;
-  border: 1px solid #d4d5d9;
+  /* border: 1px solid #d4d5d9; */
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
   background-color: transparent;
   color: #f80;
+  border: 1px solid #f80;
 }
 
 .btn-add:hover {
-  box-shadow: 0 2px 8px #d4d5d9;
+  /* box-shadow: 0 2px 8px #d4d5d9; */
+  background-color: #ff9f00;
+  transition: 0.4s;
+  color: white;
 }
 
 .hr {
@@ -533,8 +545,8 @@ a {
 }
 
 .hr-class {
-  margin: 0px;
-  border-top: 1px solid #aa9e9e;
+  border-top: 1px solid #cacaca;
+  margin: 12px 0px;
 }
 
 .img-veg-icon {
@@ -653,7 +665,8 @@ a {
   font-weight: 600;
   display: flex;
   align-items: center;
-  border: 1px solid #d4d5d9;
+  /* border: 1px solid #d4d5d9; */
+  border: 1px solid #f80;
   cursor: pointer;
 }
 
@@ -662,8 +675,9 @@ a {
   height: 30px;
   display: flex;
   align-items: center;
-  border: 1px solid #d4d5d9;
+  /* border: 1px solid #d4d5d9; */
   cursor: pointer;
+  border: 1px solid #f80;
 }
 
 .cart-veg-classifier {

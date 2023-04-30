@@ -7,28 +7,36 @@ const Help = () => {
   const qa = useHelpQA();
 
   return (
-    <div className="instamart-color">
-      <h2 className="instamart-font help-title">
-        <b>Help & Support</b>
-      </h2>
-      <h5 className="help-description">
-        Let's take a step ahead and help you better.
-      </h5>
-      <div className="accordion-list">
-        {qa.map((item, index) => {
-          return (
-            <Section
-              key={index}
-              heading={item.question}
-              description={item.answer}
-              isVisible={visibleSection === index}
-              setIsVisible={() => {
-                setVisibleSection(visibleSection === index ? "" : index);
-              }}
-            />
-          );
-        })}
-        {/* <Section
+    <>
+      <div className="instamart-color">
+        <br />
+        <br />
+        <h2 className="instamart-font help-title">
+          <b>Help & Support</b>
+        </h2>
+        <h5 className="help-description">
+          Let's take a step ahead and help you better.
+        </h5>
+        <div className="cart-header-hr"></div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className="accordion-list">
+          {qa.map((item, index) => {
+            return (
+              <Section
+                key={index}
+                heading={item.question}
+                description={item.answer}
+                isVisible={visibleSection === index}
+                setIsVisible={() => {
+                  setVisibleSection(visibleSection === index ? "" : index);
+                }}
+              />
+            );
+          })}
+          {/* <Section
           heading={
             "What are the mandatory documents needed to list my restaurant on Food Villa?"
           }
@@ -41,8 +49,14 @@ const Help = () => {
             setVisibleSection(visibleSection === "s1" ? "" : "s1");
           }}
         /> */}
+        </div>
       </div>
-    </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </>
   );
 };
 
