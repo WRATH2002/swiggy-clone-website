@@ -12,4 +12,6 @@ I've built this complete website using React JS, Redux - Toolkit, JavaScript, HT
 
 You can checkout my project here - https://hungerr.netlify.app/ 
 
+Note - This Website is now not working as Swiggy has changed their API. So Go check my latest Swiggy Clone Project called FoodFave.
+
 Note - Please check it on PC only and use the CORS extension to see live.
